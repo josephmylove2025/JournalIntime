@@ -7,8 +7,6 @@
     "icon": "./assets/icon.png",
     "scheme": "journalintime",
     "userInterfaceStyle": "automatic",
-    
-     
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
@@ -16,7 +14,8 @@
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.journalintime.app"
     },
     "web": {
       "output": "static",
@@ -36,6 +35,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "32110b35-c3d9-489e-a831-eecaa5e5cfbf"
+      }
+    },
+    "owner": "journalintime"
   }
 }
