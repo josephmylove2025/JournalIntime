@@ -431,7 +431,7 @@ export default function App() {
             />
 
             <TouchableOpacity style={styles.primaryButton} onPress={handleAddEntry}>
-              <Text style={styles.buttonText}>Enregistrer l'entrée</Text>
+              <Text style={styles.buttonText}> Enregistrer l'entrée</Text>
             </TouchableOpacity>
           </ScrollView>
 
